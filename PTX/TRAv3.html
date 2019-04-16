@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <style type="text/css">
+            html, body, iframe#f1 {
+                margin: 0;
+                padding: 0;
+                border: 0;
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <iframe id="f1" src="https://ptx.transportdata.tw/MOTC"></iframe>
+        <script src="https://code.jquery.com/jquery-3.4.0.slim.min.js"
+            integrity="sha256-ZaXnYkHGqIhqTbJ6MB4l9Frs/r7U4jlx7ir8PJYBqbI=" crossorigin="anonymous"></script>
+        <script>
+            var $contents = $("iframe#f1").contents();
+        </script>
+    </body>
+</html>
